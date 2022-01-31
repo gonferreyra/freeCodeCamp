@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>freeCodeCamp landing page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header id="header">
+        <img
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          alt="company-logo"
+          id="header-img"
+        />
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a href="#header" class="nav-link">Index</a></li>
+            <li><a href="#form" class="nav-link">Form</a></li>
+            <li><a href="#conteiner" class="nav-link">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="heading">
+        <h2>Handcrafted, home-made masterpieces</h2>
+      </div>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter yor email here"
+          required
+        /><br />
+        <input type="submit" id="submit" value="GET STARTED" />
+      </form>
+
+      <div id="conteiner">
+        <div class="card">
+          <div class="card-heading">
+            <h3>TENOR TROMBONE</h3>
+          </div>
+          <div class="card-price">
+            <h2>$600</h2>
+          </div>
+          <div class="card-paragraph">
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum dolor</p>
+            <p>Lorem ipsum</p>
+          </div>
+          <div class="card-button">
+            <button>SELECT</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-heading">
+            <h3>BASS TROMBONE</h3>
+          </div>
+          <div class="card-price">
+            <h2>$900</h2>
+          </div>
+          <div class="card-paragraph">
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum dolor</p>
+            <p>Lorem ipsum</p>
+          </div>
+          <div class="card-button">
+            <button>SELECT</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-heading">
+            <h3>VALVE TROMBONE</h3>
+          </div>
+          <div class="card-price">
+            <h2>$1200</h2>
+          </div>
+          <div class="card-paragraph">
+            <p>Plays similar to a Trumpet</p>
+            <p>Great for Jazz Bands</p>
+            <p>Lorem ipsum dolor</p>
+            <p>Lorem ipsum</p>
+          </div>
+          <div class="card-button">
+            <button>SELECT</button>
+          </div>
+        </div>
+      </div>
+      <section>
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557 */
+
+body{
+    background-color: lightgrey;
+    font-size: 1em;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5em auto;
+    background-color: lightgrey;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header li{
+    padding: 0 1em;
+}
+header ul li a{
+    text-decoration: none;
+}
+header img{
+    height: 2em;
+}
+.heading{
+    text-align: center;
+    padding: 1em;
+    margin: 5em;
+}
+#form{
+    text-align: center;
+}
+#form input{
+    margin: 0.8em;
+}
+#submit{
+    width: 10em;
+    height: 2.5em;
+    background-color: yellow;
+}
+#conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    border: 1px solid red;
+    margin: 1em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-heading{
+    padding: 2em;
+    background-color: grey;
+}
+.card-price{
+    padding: 0.8em 0;
+}
+.card-paragraph{
+    text-align: center;
+    padding: 0.5em;
+}
+.card-paragraph p{
+    padding: 0.4em;
+}
+.card-button button{
+    width: 10em;
+    height: 2em;
+    margin: 1em;
+    background-color: yellow ;
+}
+
+@media (max-width: 600px){
+    header{
+        flex-direction: column;
+    }
+}
+
+/* @media hacerlo a partir de 600px por el nav bar */
