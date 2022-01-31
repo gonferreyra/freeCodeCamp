@@ -1,0 +1,53 @@
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    padding: 20px;
+}
+
+header {
+    font-size: 30px;
+}
+
+code p {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.conteiner {
+    display: flex;
+}
+
+nav {
+    width: 20%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    padding-top: 35px;
+}
+
+main {
+    width: 70%;
+    padding: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .conteiner {
+        display: block;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    nav p {
+        display: inline-block;
+    }
+
+    main {
+        width: 90%;
+    }
+}
