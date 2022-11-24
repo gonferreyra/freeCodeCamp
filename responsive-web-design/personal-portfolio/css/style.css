@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Montserrat:ital,wght@0,100;0,200;0,400;1,400&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --dark-olive-green: hsla(74, 32%, 32%, 1);
+    --kombu-green: hsla(88, 38%, 15%, 1);
+    --cornsilk: hsla(52, 94%, 94%, 1);
+    --fawn: hsla(32, 65%, 62%, 1);
+    --liver-dogs: hsla(28, 67%, 44%, 1);
+}
+
+
+#navbar {
+    /* display: sticky; */
+    display: flex;
+    justify-content: space-between;
+    background-color: var();
+}
+
+.nav-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 20px 20px;
+}
+
+#welcome-section {
+    padding: 20px;
+    text-align: center;
+}
+
+#welcome-section h3 {
+    padding: 10px;
+}
+
+.projects-grid {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows: 1fr; */
+    justify-items: center;
+    row-gap: 20px;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+.project-tile {
+    text-align: center;
+    padding: 20px;
+}
+
+.project-tile img,
+p {
+    padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 40px;
+    }
+}
